@@ -69,5 +69,34 @@ ul, li{
     padding: 10px 30px;
     font-size: 22px;
 
+}
+
+#development{
+    padding: 70px 0px;
+}
+.web-content{
+    width: 946px;
+    text-align: center;
+}
+.section-header h2{
+   font-size: 40px;
+   color: #0D1321;
+   font-weight: 700;
+   margin-bottom: 32px;
+}
+.section-header p{
+   font-size: 18px;
+   color: #0D1321;
 
 }
+.web-item{
+    display: flex;
+}
+.left-item{
+    width: 60%;
+}
+.left-item{
+    width: 40%;
+}
+
+
