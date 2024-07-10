@@ -74,6 +74,11 @@ ul, li{
 #development{
     padding: 70px 0px;
 }
+.section-header{
+    width: 858px;
+    text-align: center;
+    margin-bottom: 48px;
+}
 .web-content{
     width: 946px;
     text-align: center;
@@ -91,6 +96,7 @@ ul, li{
 }
 .web-item{
     display: flex;
+    padding-top: 48px;
 }
 .left-item{
     width: 60%;
@@ -98,5 +104,153 @@ ul, li{
 .left-item{
     width: 40%;
 }
+.item h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+    text-align: left;
+}
+.item h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0D1321;
+    text-align: left;
+}
+.item p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #0D1321;
+    text-align: left;
+    margin-top:20px
+}
+.more-btn{
+    text-align: left;
+    margin-top: 35px;
+
+}
+.more-btn a{
+    padding: 10px 40px;
+    border: 1px solid #000;
+}
+
+.video-section{
+    width: 1140;
+    height: 775px;
+    padding: 32px;
+    border: 1px solid #e6e6e7;
+    border-radius: 16px;
+
+}
+.video-section iframe{
+    border-radius: 16px;
+}
+#terget{
+    padding: 60px 0px;
+}
+.targrt-wrapper{
+    display: flex;
+    width: 1140px;
+
+}
+.terget-itemlast-child {
+   background-color: #FF4C1E;
+
+}
+.terget-item{
+    padding: 40px;
+}
+.terget-item img{
+ margin-bottom: 24px;
+    
+}
+.terget-item h4{
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 20px;
+color: #0D1321;
+}
+.terget-item p{
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 20px;
+color: #0D1321;
+}
+.terget-item a{
+text-decoration: underline;
+color: #0D1321;
+font-weight: bold;
+font-size: 16px;
+}
+#lower-banner{
+    padding: 50px 0;
+}
+.lower{
+    /* width: 1140px; */
+    height: 315px;
+    background: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    position: relative;
+}
+.overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background-color: #00000057;
+    top: 0;
+    left: 0;
+}
+.overly-content{
+    padding: 64px 48px;
+    width: 730px;
+}
+.overly-content h2{
+   font-size: 32px;
+   font-weight: bold;
+   color: #FFFFFF;
+   text-align: center;
+}
+.overly-content p{
+   font-size: 16px;
+   font-weight: 400;
+   color: #FFFFFF;
+   text-align: center;
+   margin-bottom: 16px;
+}
+.search{
+    width: 548px;
+   padding: 20px 30px;
+   border-radius: 8px;
+   border: none;
+}
+.submit{
+    padding: 20px 30px;
+   border-radius: 8px;
+   border: none;
+   font-weight: 600;
+   font-size: 14px;
+
+}
+footer{
+    padding-bottom: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.copyright a{
+   margin: 0 10px;
+}
+
+
 
 
