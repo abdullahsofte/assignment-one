@@ -128,9 +128,12 @@ ul, li{
     margin-top: 35px;
 
 }
-.more-btn a{
+.more-btn a {
     padding: 10px 40px;
     border: 1px solid #000;
+    color: #0D1321;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .video-section{
